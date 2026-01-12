@@ -2,7 +2,7 @@
 title: "Collecte de données avec Europresse"
 author: "Léo Mignot"
 subtitle: "Stage méthodes"
-date: 2025-01-21
+date: 2026-01-21
 
 format: 
     revealjs:
