@@ -47,8 +47,9 @@ Sky is the limit
 - [Classer des styles de vie](https://shs.cairn.info/revue-politiques-de-communication-2018-1-page-55?lang=fr)
 - [Critique de l’IA dans la presse](https://medialab.github.io/carnet-algopresse/#/publication/fr)
 
-<!-- ################################################# -->
 
+
+<!-- ################################################# -->
 
 # 1. Utiliser Europresse
 
@@ -70,27 +71,16 @@ Stratégies de collecte et export des données
 - Plein d'autres :
   - Aricle Paul le Derf
 
-<!-- À INTÉGRER (+ DÉJÀ CITÉ EN RESSOURCE):
-# Extrait du tuto de Corentin Roquebert
+## Concrètement
+- Avoir un accès institutionnel et se connecter
+- Basculer sur la version classique
+- Faire sa requête (recherche avancée)
+  - mots clés | dates | délimiter les sources
+- Classer par ordre chronologique (cf n>1000)
+- Scroller, selectionner, sauvegarder
+- Reproduire l'opération si plus de 1000 documents
 
-ici : https://quanti.hypotheses.org/1416
-
-Première étape : récupérer les articles sur Europresse
-
-La première étape de ce tutoriel est de récupérer en version HTML des articles via Europresse. Pour cela, il faut un accès à Europresse, en passant par une connexion que vous pouvez obtenir par l’intermédiaire de votre institution (laboratoire, université, etc.). Une fois que vous avez cet accès, il faut se rendre à cette adresse : https://nouveau.europresse.com/Search/Reading.
-
-Pour récupérer les HTML, voilà les différentes étapes :
-
-    Cliquez en haut à droite sur “version classique” (par défaut, vous êtes probablement en version étudiant, qui est censée être plus “ergonomique”, mais ne permet pas d’obtenir les HTML)((Cette étape n’est peut-être plus nécessaire : en tout cas, en réessayant juste avant la publication de ce tutoriel, il semblerait que la “version étudiante” permette de télécharger les pages HTML dont on a besoin.)).
-    Faites votre recherche. Je vous conseille de faire une “recherche avancée” en précisant les sources, l’endroit dans le texte où vous voulez vos ou votre mot-clé, etc.
-    Sélectionnez, dans les résultats, uniquement ceux qui concernent la presse : cliquez sur les boutons “télévision et radio”, “médias sociaux”, etc., pour les enlever de la liste de résultats.
-    Triez les résultats par date.
-    “Scrollez” jusqu’au maximum de résultats qu’il est possible d’afficher (1000 aux dernières nouvelles) et cocher la case à côté de “trier les résultats” qui permet de sélectionner toutes ces premières occurrences (c’est là que la version classique est int?ressante : dans l’autre version, on doit cocher tous les articles à la main).
-    Cliquez sur “sauvegarde de documents” et sélectionner en HTML.
-    Déplacez le document téléchargé dans un dossier de votre ordinateur, dans lequel il n’y aura que ces documents HTML.
-    Si vous avez plus de 1000 résultats pour votre requête, il faut répéter la procédure à partir de la date du dernier des articles que vous venez de télécharger. Quand on reclique sur “recherche avancée”, Europresse a pré-enregistré les paramètres de recherche, il n’y a donc qu’à modifier la date. Les résultats sont en effet classés par ordre décroissant de date, du plus récent au plus ancien : si le dernier article sélectionné datait du 3 décembre 2012, il faut faire une recherche qui ira jusqu’au 2 décembre 2012, et répéter la procédure autant de fois que nécessaire.
-
- -->
+cf. le [tuto de Corentin Roquebert](https://quanti.hypotheses.org/1416)
 
 ## Illustration en direct live
 C'est normalement là que :
@@ -99,16 +89,35 @@ C'est normalement là que :
 - Europresse bloque car trop grand nb de connexion
 - tout autre évènement pertubateur
   
+## Accueil et version classique
+![](img/europresse_accueil.png){style="display:block; margin:auto;"}
+
+## Recherche avancée
+![](img/europresse_recherche.png){style="display:block; margin:auto;"}
+
+## Recherche en version mobile
+![](img/europresse_recherche_mobile.png){style="display:block; margin:auto;"}
+
+## Résultats et tri
+![](img/europresse_resultats.png){style="display:block; margin:auto;"}
+
+## Scroll et export
+![](img/europresse_export.png){style="display:block; margin:auto;"}
 
 <!-- ################################################# -->
 
 # 2. Convertir les données
 *From html to …*
 
+## Vous avez dejà vu une page internet ?
+![](img/page_web.png){style="display:block; margin:auto;"}
+
+## … mais pour de vrai ?
+![](img/page_web_code.png){style="display:block; margin:auto;"}
+
 ## Format HTML
-- Vous avez dejà vu une page internet ? mais pour de vrai ?
-- Fichiers HTML -> balisés
-  - journal, auteur, date, etc.
+- Fichiers HTML -> structurés, balisés
+  - ici : journal, auteur, date, etc.
 - Traiter et transformer le fichier
 - Pour passer en données tabultaires (ou autre selon les besoins)
   - csv, ligne étoilée iramuteq, etc.
